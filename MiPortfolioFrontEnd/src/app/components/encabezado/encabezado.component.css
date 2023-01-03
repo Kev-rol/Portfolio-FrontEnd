@@ -1,7 +1,62 @@
-img {
-    width: 800px;
-    min-width: 400px;
-    height: 500px;
-    min-height: 250px;
-    display: flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    height: 60px;
+    background-color: rgb(26, 19, 34);
+    margin: auto;
+}
+
+.logo-argpro {
+    width: 170px;
+    height: 60px;
+    display: inline;
+    
+}
+
+.text-program {
+    color: aliceblue;
+    text-align: center;
+    display: inline;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.banner-container {
+    width: 100vw;
+    max-width: 95%;
+    min-width: 300px;
+    margin: auto;
+}
+
+.img-banner {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3 ´x 5px rgba(15, 15, 15, 5);
+    
+}
+
+.image-container {
+    max-width: 35%;
+    min-width: 25%;
+    margin-top: -150px;
+    position: relative;
+    border-radius: 50%;
+    box-sizing: border-box;
+   
+   
+}
+
+.perfil-pic {
+    max-width: 200px;
+    margin-left: 25%;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    
 }
