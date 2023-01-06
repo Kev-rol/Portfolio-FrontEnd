@@ -5,10 +5,12 @@
 }
 
 .container {
-    max-width: 100%;
+    display: flex;
+    width: 100%;
     height: 60px;
     background-color: rgb(26, 19, 34);
     margin: auto;
+    position: relative;
 }
 
 .logo-argpro {
@@ -24,6 +26,20 @@
     display: inline;
     font-size: 25px;
     margin-left: 15px;
+}
+ .cont-redes {
+    width: 200px;
+    height: 50px;
+    margin-left: 70%;
+    position: absolute;
+    background-color: aquamarine;
+    
+ }
+
+ul li a i {
+    font-size: 30px;
+    
+
 }
 
 .banner-container {
